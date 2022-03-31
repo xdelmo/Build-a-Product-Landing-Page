@@ -1,7 +1,7 @@
-<h1 text-align="center">Build-a-Product-Landing-Page</h1>
+<h1 align="center">Build-a-Product-Landing-Page</h1>
 <p>FreeCodeCamp.com Responsive Web Design Certification Project - "Build A Product Landing Page"</p>
 https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
-
+<hr>
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/RKRbwL.
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
