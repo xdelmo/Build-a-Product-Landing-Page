@@ -1,6 +1,6 @@
-<h1 align="center">Build-a-Survey-Form</h1>
-<p>FreeCodeCamp.com Responsive Web Design Certification Project - "Build A Survey Form"</p>
-https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form
+<h1 text-align="center">Build-a-Product-Landing-Page</h1>
+<p>FreeCodeCamp.com Responsive Web Design Certification Project - "Build A Product Landing Page"</p>
+https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/RKRbwL.
 
