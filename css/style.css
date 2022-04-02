@@ -1,43 +1,125 @@
-#title {
-    font-size: 200%;
+#nav-bar {
+    overflow: hidden;
+    background-color: #4caf50;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    left: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    padding: 0;
 }
 
-.introduction {
-    padding: 1%;
+
+/* Links inside the navbar */
+
+.a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: rgb(225, 247, 146);
+    }
+}
+
+.logo {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    width: 30px;
+}
+
+.body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(235, 235, 108);
+}
+
+.footer {
+    margin-top: 16px;
+    background-color: rgb(235, 235, 108);
+    /* Position the navbar at the top of the page */
+    padding: 14px;
+    /* Full width */
+}
+
+.content {
+    margin-top: 80px;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0.2rem;
+}
+
+@media (min-width: 500px) {
+    #pricing {
+        flex-direction: column;
+    }
+}
+
+.price-box {
+    border: black 5px solid;
+    margin: 1em;
+    border-radius: 2%;
+    background-color: white;
+    overflow-y: visible;
+}
+
+section {
+    margin: 1.5rem;
+    padding: 0.8rem;
     text-align: center;
 }
 
-#description {
-    font-style: italic;
+.btn {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #4caf50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
-.center {
+.btn:hover {
+    background-color: #555555;
+    color: white;
+}
+
+h3 {
+    background-color: aliceblue;
     margin: auto;
-    padding: auto;
+    padding: 12px;
 }
 
-#main {
-    background-color: darkslategrey;
-    color: whitesmoke;
-}
-
-#survey-form {
-    border-radius: 2%;
-    width: max-content;
-    padding: 5%;
-    color: #495057;
-    background-color: wheat;
-}
-
-.submit-button {
+#submit {
     background-color: firebrick;
     color: whitesmoke;
-    width: 100%;
-    padding: 5%;
-}
-
-.container {
-    display: grid;
-    align-items: center;
-    height: auto;
+    padding: 1%;
 }
